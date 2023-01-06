@@ -5,7 +5,7 @@ import "@uniswap/v3-periphery/contracts/libraries/TransferHelper.sol";
 import "@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import "./Interfaces/IDex.sol";
+import "../Interfaces/IDex.sol";
 
 interface IUniswapRouter is ISwapRouter {
     function refundETH() external payable;
